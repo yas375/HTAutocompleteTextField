@@ -10,4 +10,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '5.0'
   s.source_files = 'Classes/*.{h,m}'
   s.requires_arc = true
+  s.resource_bundles = { 'Resources' => ['Assets/*.png'] }
 end
